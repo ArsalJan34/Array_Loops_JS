@@ -4,7 +4,7 @@ var Odd = 0;
 for(var i = 0; i < array.length; i++){
     if(array[i] % 2 !== 0){
         OddArray[Odd] = array[i];
-        Odd++
+        Odd++;
     }
 }
-document.write("Odd Numbers from first array :", OddArray);
+document.write("Odd Numbers from first array : ", OddArray);
