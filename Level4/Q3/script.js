@@ -10,7 +10,7 @@ for (var i = 1; i < arr.length; i++)
         largest = arr[i];
     } 
     else if (arr[i] > secondLargest && arr[i] !== largest) {
-        secondLargest = arr[i];
+        secondLargest = arr[i] ;
                       }
 }
 document.write("Second Largest = ", secondLargest);
