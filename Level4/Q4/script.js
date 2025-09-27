@@ -10,4 +10,4 @@ for (var i = 1; i < arr.length; i++) {
         secondSmallest = arr[i];
     }
 }
-console.log("Second Smallest =", secondSmallest);
+document.write("Second Smallest =", secondSmallest);
