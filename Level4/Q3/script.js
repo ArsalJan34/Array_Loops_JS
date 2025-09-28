@@ -13,4 +13,6 @@ for (var i = 1; i < arr.length; i++)
         secondLargest = arr[i] ;
                       }
 }
+
+
 document.write("Second Largest = ", secondLargest);
