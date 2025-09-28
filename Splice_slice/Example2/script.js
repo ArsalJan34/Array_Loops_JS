@@ -1,6 +1,6 @@
 let languages = ["JavaScript", "Python", "C++", "Java", "Go"];
 
-let removed1 = languages.splice(2, 1);
+var remove1 = languages.splice(2, 1);
 
 document.write("Removed:", removed1); 
 
